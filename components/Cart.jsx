@@ -125,7 +125,7 @@ const Cart = () => {
             </div>
             <div className="btn-container">
               <button type="button" className="btn" onClick={() => handleCheckout()}>
-                Pay with Stripe
+                Pay with Paystack
               </button>
             </div>
           </div>
