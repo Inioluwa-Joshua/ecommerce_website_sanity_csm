@@ -7,12 +7,14 @@ import Footer from './Footer';
 const Layout = ({ children }) => {
   return (
     <div className="layout">
+      
       <Head>
+        <script src="https://js.paystack.co/v1/inline.js"></script>
         <title>My Store</title>
       </Head>
       <header>
         <Navbar />
-      </header>
+      </header>     
       <main className="main-container">
         {children}
       </main>

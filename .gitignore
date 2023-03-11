@@ -7,7 +7,8 @@ node_modules
 
 # testing
 /coverage
-
+pages/api/paystack.js
+lib/getPaystack.js
 # next.js
 /.next/
 /out/
